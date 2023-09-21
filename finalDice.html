@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Dice Game</title>
+</head>
+
+<body>
+   
+   <div class="pic">
+         
+        <div class="dicePic1">
+            <img id="diceImg1" width="200px" height="200px" src="img/dice_6.png" alt="dicePic-1">
+        </div>
+         
+        <div class="dicePic2">
+            <img id="diceImg2" width="200px" height="200px" src="img/dice_6.png" alt="dicePic-2">
+        
+        </div>
+ 
+    
+    </div>
+
+
+
+   <div class="btn-flex">     
+   
+    <div class="btn1">
+      <button type="button" class="btn" id="edit" >Edit player Name</button><br>
+    </div>
+    
+    <div class="btn2">
+      <button  type="button"  class="btn"  id="roll"  onclick="rollDice()" > Roll </button><br>
+    </div>
+
+    <div class="btn2">
+      <button  type="button" class="btn" id="newG" > New Game </button><br>
+    </div>
+
+    </div>
+
+    
+
+    <div  class="win">
+        
+        <div class="d1"> 
+          <img src="img/play1.jpg" width="200px" height="200px"  alt="playerr1">
+          <p id="pName1">player 1</p>
+        </div>
+
+        <div class="d2">
+            <label for="p11"><span id="plyr1"></span></label> 
+          </div>
+          
+        <div class="d3">
+            <label for="p22"><span id="plyr2"></span></label> 
+          </div>
+          
+        <div class="d4">  
+            <p id="pName2"> player 2</p>
+            <img src="img/play2.jpg" width="200px" height="200px" alt="playerr2">
+          
+
+        </div>
+  
+    
+    
+    </div>
+
+
+    <div  class="trophy">
+        
+        <div  class="t1">
+            <label for="p11"><span id="winner-1"></span> </label> 
+          </div>
+       
+       
+        <div  class="t2"> 
+          <img  id="trophy1" width="200px" height="200px"  src="img/white.png" alt="white.png">
+        </div>
+
+          
+          <div class="t3">  
+            <img  id="trophy2" width="200px" height="200px" src="img/white.png" alt="white.png">
+        
+          </div>
+
+        <div class="t4">
+              <label for="p22"><span id="winner-2"></span></label> 
+        </div>
+              
+
+        
+  
+    </div>
+
+    <script src="script.js"></script>
+       
+</body>
+</html>
